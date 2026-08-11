@@ -1,0 +1,24 @@
+{
+  "project": "City Life Simulator - REALISTIC GAMEPLAY FIXED V3",
+  "godot": "4.x",
+  "entry": "main.tscn",
+  "script": "scripts/main.gd",
+  "external_assets_required": false,
+  "included_models": [
+    "assets/human_realistic.glb",
+    "assets/sedan_realistic.glb",
+    "assets/building_realistic.glb"
+  ],
+  "fixes": [
+    "explicit GDScript types in model loading and gameplay",
+    "grounded human model",
+    "grounded sedan model with wheels",
+    "player/NPC/vehicle collision layers",
+    "pedestrian sidewalk routes",
+    "traffic lanes and CharacterBody3D movement",
+    "building collision with entrance gap",
+    "construction progress visual and crane",
+    "TAB/ESC management controls",
+    "slower simulation clock"
+  ]
+}
